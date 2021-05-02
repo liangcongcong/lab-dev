@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysSmartcorrectionMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysSmartcorrection">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="experimentId" jdbcType="INTEGER" property="experimentid" />
+    <result column="stuUid" jdbcType="VARCHAR" property="stuuid" />
+    <result column="questionId" jdbcType="INTEGER" property="questionid" />
+    <result column="getScorePoint" jdbcType="VARCHAR" property="getscorepoint" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+</mapper>

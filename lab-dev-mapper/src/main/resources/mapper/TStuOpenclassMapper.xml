@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TStuOpenclassMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TStuOpenclass">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="openclassId" jdbcType="INTEGER" property="openclassid" />
+    <result column="stuUid" jdbcType="VARCHAR" property="stuuid" />
+  </resultMap>
+</mapper>

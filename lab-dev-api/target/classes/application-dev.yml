@@ -1,0 +1,12 @@
+server:
+  port: 8088
+
+#spring:
+#  datasource:                                           # 数据源的相关配置
+#    url: jdbc:mysql://172.29.102.200:3306/lab?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+#    username: czh
+#   password: czh@bigdata7
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

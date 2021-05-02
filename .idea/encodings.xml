@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab-dev-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

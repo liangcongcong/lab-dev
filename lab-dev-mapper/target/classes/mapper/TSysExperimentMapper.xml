@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysExperimentMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysExperiment">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="experimentName" jdbcType="VARCHAR" property="experimentname" />
+    <result column="openClassId" jdbcType="BIGINT" property="openclassid" />
+    <result column="experimentType" jdbcType="VARCHAR" property="experimenttype" />
+    <result column="experimentContent" jdbcType="VARCHAR" property="experimentcontent" />
+    <result column="experimentRequire" jdbcType="VARCHAR" property="experimentrequire" />
+    <result column="experimentReportContent" jdbcType="VARCHAR" property="experimentreportcontent" />
+    <result column="startTime" jdbcType="TIMESTAMP" property="starttime" />
+    <result column="endTime" jdbcType="TIMESTAMP" property="endtime" />
+    <result column="optionalOrMustDo" jdbcType="INTEGER" property="optionalormustdo" />
+    <result column="teacherUid" jdbcType="VARCHAR" property="teacheruid" />
+    <result column="shared" jdbcType="INTEGER" property="shared" />
+    <result column="answerRule" jdbcType="VARCHAR" property="answerrule" />
+    <result column="order" jdbcType="INTEGER" property="order" />
+    <result column="isToll" jdbcType="VARCHAR" property="istoll" />
+    <result column="resourceUrl" jdbcType="VARCHAR" property="resourceurl" />
+    <result column="experimentDuration" jdbcType="INTEGER" property="experimentduration" />
+    <result column="experimentalSocreRatio" jdbcType="INTEGER" property="experimentalsocreratio" />
+    <result column="reportScoreRatio" jdbcType="INTEGER" property="reportscoreratio" />
+    <result column="reportReviewType" jdbcType="VARCHAR" property="reportreviewtype" />
+    <result column="location" jdbcType="VARCHAR" property="location" />
+    <result column="isProvideExperimentalHelp" jdbcType="INTEGER" property="isprovideexperimentalhelp" />
+    <result column="isProvideSmartGuidance" jdbcType="INTEGER" property="isprovidesmartguidance" />
+  </resultMap>
+</mapper>

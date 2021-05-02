@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TLabCheckinoroutMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TLabCheckinorout">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="sNo" jdbcType="VARCHAR" property="sno" />
+    <result column="labId" jdbcType="INTEGER" property="labid" />
+    <result column="checkInTime" jdbcType="TIMESTAMP" property="checkintime" />
+    <result column="checkOutTime" jdbcType="TIMESTAMP" property="checkouttime" />
+  </resultMap>
+</mapper>

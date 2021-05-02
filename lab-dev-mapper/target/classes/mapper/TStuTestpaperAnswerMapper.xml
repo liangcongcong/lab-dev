@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TStuTestpaperanswerMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TStuTestpaperanswer">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="stuUid" jdbcType="VARCHAR" property="stuuid" />
+    <result column="testPaperId" jdbcType="BIGINT" property="testpaperid" />
+    <result column="questionId" jdbcType="INTEGER" property="questionid" />
+    <result column="stuAnswer" jdbcType="VARCHAR" property="stuanswer" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="commence" jdbcType="INTEGER" property="commence" />
+  </resultMap>
+</mapper>

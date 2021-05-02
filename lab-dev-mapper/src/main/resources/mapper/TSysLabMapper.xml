@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysLabMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysLab">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="labCode" jdbcType="VARCHAR" property="labcode" />
+    <result column="labName" jdbcType="VARCHAR" property="labname" />
+    <result column="userUid" jdbcType="VARCHAR" property="useruid" />
+    <result column="loaction" jdbcType="VARCHAR" property="loaction" />
+    <result column="isOpen" jdbcType="INTEGER" property="isopen" />
+    <result column="labType" jdbcType="VARCHAR" property="labtype" />
+    <result column="cancelAppointmentTimeLimit" jdbcType="INTEGER" property="cancelappointmenttimelimit" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="rows" jdbcType="INTEGER" property="rows" />
+    <result column="columns" jdbcType="INTEGER" property="columns" />
+    <result column="stations" jdbcType="INTEGER" property="stations" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysUseronlineMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysUseronline">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="userUid" jdbcType="VARCHAR" property="useruid" />
+    <result column="loginId" jdbcType="INTEGER" property="loginid" />
+    <result column="visitId" jdbcType="INTEGER" property="visitid" />
+    <result column="sessionId" jdbcType="INTEGER" property="sessionid" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+  </resultMap>
+</mapper>

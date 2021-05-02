@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysteacherMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysteacher">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="userUid" jdbcType="VARCHAR" property="useruid" />
+    <result column="tNo" jdbcType="VARCHAR" property="tno" />
+    <result column="position" jdbcType="VARCHAR" property="position" />
+    <result column="education" jdbcType="VARCHAR" property="education" />
+    <result column="graduateSchoolId" jdbcType="BIGINT" property="graduateschoolid" />
+    <result column="mainCourseCode" jdbcType="VARCHAR" property="maincoursecode" />
+    <result column="schoolId" jdbcType="BIGINT" property="schoolid" />
+    <result column="flag" jdbcType="INTEGER" property="flag" />
+    <result column="honor" jdbcType="VARCHAR" property="honor" />
+    <result column="memo" jdbcType="LONGVARCHAR" property="memo" />
+  </resultMap>
+</mapper>

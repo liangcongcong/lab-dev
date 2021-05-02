@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysAccountturnoverMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysAccountturnover">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="userUid" jdbcType="VARCHAR" property="useruid" />
+    <result column="accountName" jdbcType="VARCHAR" property="accountname" />
+    <result column="transactionTime" jdbcType="TIMESTAMP" property="transactiontime" />
+    <result column="transactionType" jdbcType="VARCHAR" property="transactiontype" />
+    <result column="transactionAmount" jdbcType="DOUBLE" property="transactionamount" />
+    <result column="transactionStatus" jdbcType="VARCHAR" property="transactionstatus" />
+  </resultMap>
+</mapper>

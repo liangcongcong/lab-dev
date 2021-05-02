@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TTeacherExerciseoptionsMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TTeacherExerciseoptions">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="exceriseId" jdbcType="INTEGER" property="exceriseid" />
+    <result column="optionName" jdbcType="VARCHAR" property="optionname" />
+    <result column="optionContent" jdbcType="VARCHAR" property="optioncontent" />
+    <result column="courseCode" jdbcType="VARCHAR" property="coursecode" />
+  </resultMap>
+</mapper>

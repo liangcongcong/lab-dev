@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysAuthorityMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysAuthority">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_Id" jdbcType="BIGINT" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="user_authority_level" jdbcType="INTEGER" property="userAuthorityLevel" />
+    <result column="demo" jdbcType="VARCHAR" property="demo" />
+  </resultMap>
+</mapper>

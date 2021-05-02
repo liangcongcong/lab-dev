@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysArticleMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysArticle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="articleName" jdbcType="VARCHAR" property="articlename" />
+    <result column="columnId" jdbcType="INTEGER" property="columnid" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="linkTile" jdbcType="VARCHAR" property="linktile" />
+    <result column="titlePicture" jdbcType="VARCHAR" property="titlepicture" />
+    <result column="laboratoryId" jdbcType="INTEGER" property="laboratoryid" />
+    <result column="keyword" jdbcType="VARCHAR" property="keyword" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="addTime" jdbcType="TIMESTAMP" property="addtime" />
+    <result column="publishTime" jdbcType="TIMESTAMP" property="publishtime" />
+    <result column="stickyLevel" jdbcType="VARCHAR" property="stickylevel" />
+    <result column="sortLevel" jdbcType="VARCHAR" property="sortlevel" />
+    <result column="state" jdbcType="VARCHAR" property="state" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TStuOrderstationMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TStuOrderstation">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <id column="teacherID" jdbcType="BIGINT" property="teacherid" />
+    <result column="teacher" jdbcType="VARCHAR" property="teacher" />
+    <result column="station_location" jdbcType="VARCHAR" property="stationLocation" />
+    <result column="open_time" jdbcType="TIMESTAMP" property="openTime" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+  </resultMap>
+</mapper>

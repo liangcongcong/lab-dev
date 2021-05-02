@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysResourceMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysResource">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="resourceName" jdbcType="VARCHAR" property="resourcename" />
+    <result column="uploaderUid" jdbcType="VARCHAR" property="uploaderuid" />
+    <result column="reviewerUid" jdbcType="VARCHAR" property="revieweruid" />
+    <result column="reviewerStatus" jdbcType="VARCHAR" property="reviewerstatus" />
+    <result column="uploadDate" jdbcType="TIMESTAMP" property="uploaddate" />
+    <result column="resourceType" jdbcType="VARCHAR" property="resourcetype" />
+    <result column="courseCode" jdbcType="VARCHAR" property="coursecode" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="downloadTimes" jdbcType="INTEGER" property="downloadtimes" />
+    <result column="clicksTimes" jdbcType="INTEGER" property="clickstimes" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="usageRights" jdbcType="VARCHAR" property="usagerights" />
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+  </resultMap>
+</mapper>

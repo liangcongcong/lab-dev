@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysColumnMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysColumn">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="columnName" jdbcType="VARCHAR" property="columnname" />
+    <result column="parentColumnId" jdbcType="INTEGER" property="parentcolumnid" />
+    <result column="linkTitle" jdbcType="VARCHAR" property="linktitle" />
+    <result column="articleType" jdbcType="VARCHAR" property="articletype" />
+    <result column="columnType" jdbcType="VARCHAR" property="columntype" />
+    <result column="laboratoryId" jdbcType="INTEGER" property="laboratoryid" />
+    <result column="reviewerUid" jdbcType="VARCHAR" property="revieweruid" />
+    <result column="showArea" jdbcType="VARCHAR" property="showarea" />
+    <result column="keyword" jdbcType="VARCHAR" property="keyword" />
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysCourseattachmentMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysCourseattachment">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="courseCode" jdbcType="VARCHAR" property="coursecode" />
+    <result column="linkLabAddress" jdbcType="VARCHAR" property="linklabaddress" />
+    <result column="helpdoc" jdbcType="VARCHAR" property="helpdoc" />
+    <result column="plugin" jdbcType="VARCHAR" property="plugin" />
+    <result column="plugin3D" jdbcType="VARCHAR" property="plugin3d" />
+    <result column="serverAddress" jdbcType="VARCHAR" property="serveraddress" />
+    <result column="serverPort" jdbcType="INTEGER" property="serverport" />
+    <result column="serverUser" jdbcType="VARCHAR" property="serveruser" />
+    <result column="serverPasswd" jdbcType="VARCHAR" property="serverpasswd" />
+    <result column="clientpkg" jdbcType="VARCHAR" property="clientpkg" />
+    <result column="remoteLinkFile" jdbcType="VARCHAR" property="remotelinkfile" />
+    <result column="remoteLinkSoftware" jdbcType="VARCHAR" property="remotelinksoftware" />
+    <result column="memo" jdbcType="VARCHAR" property="memo" />
+  </resultMap>
+</mapper>

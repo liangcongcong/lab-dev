@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TTeachTimeMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TTeachTime">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="courseCode" jdbcType="VARCHAR" property="coursecode" />
+    <result column="semesterId" jdbcType="INTEGER" property="semesterid" />
+    <result column="weekNumber" jdbcType="INTEGER" property="weeknumber" />
+    <result column="weekStatus" jdbcType="INTEGER" property="weekstatus" />
+    <result column="classTimeId" jdbcType="INTEGER" property="classtimeid" />
+  </resultMap>
+</mapper>

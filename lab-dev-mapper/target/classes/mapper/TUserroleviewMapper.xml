@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TUserroleviewMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TUserroleview">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="roleId" jdbcType="BIGINT" property="roleid" />
+    <result column="userUid" jdbcType="VARCHAR" property="useruid" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+  </resultMap>
+</mapper>

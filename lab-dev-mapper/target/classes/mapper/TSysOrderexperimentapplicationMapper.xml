@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysOrderexperimentapplicationMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysOrderexperimentapplication">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="experimentId" jdbcType="INTEGER" property="experimentid" />
+    <result column="userUid" jdbcType="VARCHAR" property="useruid" />
+    <result column="takeClassDate" jdbcType="TIMESTAMP" property="takeclassdate" />
+    <result column="personNumber" jdbcType="INTEGER" property="personnumber" />
+    <result column="applicationStatus" jdbcType="VARCHAR" property="applicationstatus" />
+    <result column="specialRequirements" jdbcType="LONGVARCHAR" property="specialrequirements" />
+  </resultMap>
+</mapper>

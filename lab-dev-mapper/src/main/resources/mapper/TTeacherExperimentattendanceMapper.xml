@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TTeacherExperimentattendanceMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TTeacherExperimentattendance">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="experimentId" jdbcType="INTEGER" property="experimentid" />
+    <result column="stuUid" jdbcType="INTEGER" property="stuuid" />
+    <result column="attendanceStatus" jdbcType="VARCHAR" property="attendancestatus" />
+  </resultMap>
+</mapper>

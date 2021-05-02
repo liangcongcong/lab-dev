@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TTeacherExerciseMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TTeacherExercise">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="excerciseShort" jdbcType="VARCHAR" property="excerciseshort" />
+    <result column="questionTypeId" jdbcType="INTEGER" property="questiontypeid" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="experimentId" jdbcType="INTEGER" property="experimentid" />
+    <result column="knowledgeId" jdbcType="INTEGER" property="knowledgeid" />
+    <result column="courseCode" jdbcType="VARCHAR" property="coursecode" />
+    <result column="knowledgeType" jdbcType="VARCHAR" property="knowledgetype" />
+    <result column="exceriseContent" jdbcType="VARCHAR" property="excerisecontent" />
+    <result column="isDifficult" jdbcType="INTEGER" property="isdifficult" />
+    <result column="annntation" jdbcType="VARCHAR" property="annntation" />
+  </resultMap>
+</mapper>

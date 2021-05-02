@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysCourseMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysCourse">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="courseid" jdbcType="CHAR" property="courseid" />
+    <result column="name" jdbcType="CHAR" property="name" />
+    <result column="subjectid" jdbcType="BIGINT" property="subjectid" />
+    <result column="gradeid" jdbcType="INTEGER" property="gradeid" />
+    <result column="term" jdbcType="INTEGER" property="term" />
+    <result column="memo" jdbcType="LONGVARCHAR" property="memo" />
+  </resultMap>
+</mapper>

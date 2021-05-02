@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysEquipmentloadapplicationMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysEquipmentloadapplication">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="borrowerUid" jdbcType="VARCHAR" property="borroweruid" />
+    <result column="reviewerUid" jdbcType="VARCHAR" property="revieweruid" />
+    <result column="operatorUid" jdbcType="VARCHAR" property="operatoruid" />
+    <result column="labId" jdbcType="INTEGER" property="labid" />
+    <result column="equipmentType" jdbcType="VARCHAR" property="equipmenttype" />
+    <result column="equipmentId" jdbcType="INTEGER" property="equipmentid" />
+    <result column="borrowTime" jdbcType="TIMESTAMP" property="borrowtime" />
+    <result column="backTime" jdbcType="TIMESTAMP" property="backtime" />
+    <result column="borrowStatus" jdbcType="VARCHAR" property="borrowstatus" />
+    <result column="borrowReason" jdbcType="LONGVARCHAR" property="borrowreason" />
+  </resultMap>
+</mapper>

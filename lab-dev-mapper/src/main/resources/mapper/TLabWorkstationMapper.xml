@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TLabWorkstationMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TLabWorkstation">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="workStationCode" jdbcType="VARCHAR" property="workstationcode" />
+    <result column="sharePersonNumber" jdbcType="INTEGER" property="sharepersonnumber" />
+    <result column="isUseable" jdbcType="INTEGER" property="isuseable" />
+    <result column="labId" jdbcType="INTEGER" property="labid" />
+    <result column="memo" jdbcType="LONGVARCHAR" property="memo" />
+  </resultMap>
+</mapper>

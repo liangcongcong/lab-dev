@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysVisitrecordMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysVisitrecord">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="userUid" jdbcType="INTEGER" property="useruid" />
+    <result column="visitTime" jdbcType="TIMESTAMP" property="visittime" />
+    <result column="visitUrl" jdbcType="VARCHAR" property="visiturl" />
+    <result column="requestMethod" jdbcType="VARCHAR" property="requestmethod" />
+    <result column="sessionId" jdbcType="VARCHAR" property="sessionid" />
+  </resultMap>
+</mapper>

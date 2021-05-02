@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TSysSemesterconfigMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TSysSemesterconfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="semester" jdbcType="INTEGER" property="semester" />
+    <result column="startTime" jdbcType="DATE" property="starttime" />
+    <result column="endTime" jdbcType="DATE" property="endtime" />
+    <result column="studyYear" jdbcType="VARCHAR" property="studyyear" />
+  </resultMap>
+</mapper>

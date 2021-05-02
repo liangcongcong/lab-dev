@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hurb.mapper.sysmanager.TTeacherStrategycountMapper">
+  <resultMap id="BaseResultMap" type="com.hurb.pojo.sysmanager.TTeacherStrategycount">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="knowledgeId" jdbcType="INTEGER" property="knowledgeid" />
+    <result column="exerciseDifficulty" jdbcType="INTEGER" property="exercisedifficulty" />
+    <result column="exerciseType" jdbcType="VARCHAR" property="exercisetype" />
+    <result column="referenceQuestionCount" jdbcType="INTEGER" property="referencequestioncount" />
+    <result column="count" jdbcType="INTEGER" property="count" />
+  </resultMap>
+</mapper>
